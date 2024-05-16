@@ -1,0 +1,29 @@
+{
+  "name": "notebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "test1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StudentSela/FullStack-HY.git"
+  },
+  "author": "StudentSela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StudentSela/FullStack-HY/issues"
+  },
+  "homepage": "https://github.com/StudentSela/FullStack-HY#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
